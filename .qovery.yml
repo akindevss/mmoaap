@@ -1,14 +1,11 @@
+---
 application:
-  name: mmoaap
-  project: mmoaap-2
-  publicly_accessible: true
-databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+  name: "mmoaap"
+  project: "ttaă"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-mmoaap"
   routes:
-  - application_name: mmoaap
+  - application_name: "mmoaap"
     paths:
-    - /
+    - "/*"
