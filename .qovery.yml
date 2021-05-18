@@ -4,7 +4,7 @@ application:
   project: "vagas"
   organization: "QoveryCommunity"
 routers:
-- name: "vagas"
+- name: "main-vagas"
   routes:
   - application_name: "vagas"
     paths:
