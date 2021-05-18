@@ -1,11 +1,11 @@
 ---
 application:
-  name: "mmoaap"
-  project: "ttaă"
+  name: "vagas"
+  project: "vagas"
   organization: "QoveryCommunity"
 routers:
-- name: "main-mmoaap"
+- name: "vagas"
   routes:
-  - application_name: "mmoaap"
+  - application_name: "vagas"
     paths:
     - "/*"
